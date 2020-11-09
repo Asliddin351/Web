@@ -1,0 +1,18 @@
+.AvatarContainer {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 15px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+}
+.userName {
+  color: #2e2e2e;
+  font-weight: 500;
+  margin: 0 15px;
+}

@@ -1,0 +1,56 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  margin: auto;
+}
+.MuiContainer-root {
+  height: 100vh;
+  padding: 16px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.MuiFormControl-root {
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
+
+.makeStyles-root-1 .MuiTextField-root {
+  width: 100% !important;
+}
+.formBtn {
+  width: 100%;
+  background-color: blue;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+.btnSingUp {
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #3f51b5;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.btnSingUp:hover {
+  color: #3f51b5;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}

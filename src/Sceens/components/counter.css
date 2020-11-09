@@ -1,0 +1,13 @@
+.container {
+  display: inline-block;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+}
+.btn {
+  padding: 10px 15px;
+}
+p {
+  padding: 10px 15px;
+}
